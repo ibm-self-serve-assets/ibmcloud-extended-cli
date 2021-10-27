@@ -1,0 +1,30 @@
+{
+  "name": "ibmcloud-iam-helper",
+  "version": "0.0.1",
+  "description": "Simple CLI that helps streamline your interactions with IBM Cloud IAM",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoeSamaille/ibmcloud-iam-helper.git"
+  },
+  "keywords": [
+    "ibm",
+    "cloud",
+    "ibmcloud",
+    "cli",
+    "iam"
+  ],
+  "author": "Noé Samaille",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoeSamaille/ibmcloud-iam-helper/issues"
+  },
+  "homepage": "https://github.com/NoeSamaille/ibmcloud-iam-helper#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "commander": "^8.3.0"
+  }
+}
