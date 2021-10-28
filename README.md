@@ -1,9 +1,9 @@
 # IBM Cloud IAM Helper
 
-Simple CLI that helps streamline your interactions with IBM Cloud IAM
+Simple CLI that helps streamline your interactions with IBM Cloud IAM:
 
 ```sh
-Usage: index [options] [command]
+Usage: iam [options] [command]
 
 Options:
   -h, --help       display help for command
@@ -11,6 +11,6 @@ Options:
 Commands:
   login [options]
   users
-  iam
+  access-groups
   help [command]   display help for command
 ```
