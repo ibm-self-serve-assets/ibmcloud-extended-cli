@@ -3,7 +3,6 @@
 const commander = require('commander');
 const axios = require('axios');
 const fs = require('fs');
-const { assert } = require('console');
 
 const iamEndpoint = 'https://iam.cloud.ibm.com';
 
