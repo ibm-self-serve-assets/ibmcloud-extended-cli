@@ -36,7 +36,7 @@ Commands:
 ### List access groups
 
 ```sh
-./iam.js access-groups list --account-id $ACCOUNT_ID
+./iam.js access-groups list --account-id $ACCOUNT_ID > groups.json
 ```
 
 **Note**: you can get account id using `ibmcloud login --apikey IBMCLOUD_API_KEY`.
