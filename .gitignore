@@ -5,6 +5,12 @@
 .config
 *.ignore.*
 
+users.json
+groups.json
+members.json
+new-members.json
+deleted-members.json
+
 ###############
 ### Generated
 ###############
