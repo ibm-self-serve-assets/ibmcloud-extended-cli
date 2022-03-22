@@ -1,4 +1,4 @@
-# IBM Cloud IAM Helper
+# IBM Cloud Extended CLI
 
 Simple CLI that helps streamline your interactions with IBM Cloud, by consuming IBM Cloud APIs:
 
@@ -73,4 +73,9 @@ Commands:
 
 #### AppID
 
-TODO
+#### List AppID users
+
+```sh
+❯ ice appid users list --tenant-id $TENANT_ID
+```
+  - **Note**: You can retrieve `$TENANT_ID` in your AppID service credentials.
