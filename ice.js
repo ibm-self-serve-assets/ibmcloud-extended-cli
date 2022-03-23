@@ -88,6 +88,7 @@ const appidUsersCmd = appidCmd.command('users')
 const listAppidUsersCmd = appidUsersCmd.command('list');
 listAppidUsersCmd
   .option('--region <appidRegion>', 'AppID region.', 'eu-de')
+  .option('--emails', 'get unique list of user emails.')
   .requiredOption('--tenant-id <tenantId>', 'The AppID tenant ID (you can get it from service credentials).')
   .description('list AppID users.')
   .action(() => {
