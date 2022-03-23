@@ -11,6 +11,7 @@ Options:
 Commands:
   login [options]  login to IBM Cloud.
   iam              interact with IBM Cloud IAM (Identity and Access Management).
+  appid            interact with IBM Cloud AppID service.
   help [command]   display help for command
 ```
 
